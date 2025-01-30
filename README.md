@@ -1,7 +1,10 @@
 ===========================================
+
 IITM_ESM_WRAPPER_Timeseries
 Time Series Plot for CMIP7 Climate Data
+
 ===========================================
+
 
 This script processes CMIP7 climate model data and generates timeseries plots 
 for selected variables. Follow the steps below for proper execution.
