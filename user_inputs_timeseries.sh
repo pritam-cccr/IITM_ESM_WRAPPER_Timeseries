@@ -23,6 +23,5 @@ debug=true
 # Output prefix for processed Model1 data
 output_prefix_model1="cmip7_output"
 
-# Output directory for all generated files
-output_dir="/home/iitm/IITM_ESM_WRAPPER/timeseries/output"  # Specify where output files should be saved
+
 

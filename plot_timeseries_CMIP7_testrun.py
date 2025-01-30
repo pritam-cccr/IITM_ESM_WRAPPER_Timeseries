@@ -89,10 +89,14 @@ sst_time, sst_data = load_data(sst_file, "sst")
 if sst_data is not None:
     plot_timeseries(sst_time, sst_data, axes[3], "Sea Surface Temperature (SST)", "red", "SST (°C)", (18, 19), ref_line=18.5)
 
-# Save the plot in the specified output directory
-output_path = os.path.join(output_dir, "CMIP7_timeseries_testrun.pdf")
-plt.tight_layout(rect=[0, 0, 1, 0.95])  # Adjust layout to fit title
-plt.savefig(output_path, dpi=600, bbox_inches="tight")
+# Define output paths
+output_pdf = os.path.join(output_dir, "CMIP7_timeseries_testrun.pdf")
+output_png = os.path.join(output_dir, "CMIP7_timeseries_testrun.png")
 
-print(f"Timeseries plots saved to {output_path}")
+# Adjust layout and save in both formats
+plt.tight_layout(rect=[0, 0, 1, 0.95])  # Adjust layout to fit title
+plt.savefig(output_pdf, dpi=600, bbox_inches="tight")
+plt.savefig(output_png, dpi=600, bbox_inches="tight")
+
+print(f"Saved plot as:\n- {output_pdf}\n- {output_png}")
 
