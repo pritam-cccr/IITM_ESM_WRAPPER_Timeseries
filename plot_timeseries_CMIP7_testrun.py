@@ -1,11 +1,16 @@
-# ==============================================================================
-# Copyright (C) 2025 Centre for Climate Change Research (CCCR), IITM
-#
-# This script is part of the CCCR IITM_ESM diagnostics system.
-#
-# Author: [Pritam Das Mahapatra]
-# Date: January 2025
-# ==============================================================================
+#!/usr/bin/env python3
+"""
+==============================================================================
+Copyright (C) 2025 Centre for Climate Change Research (CCCR), IITM
+
+This script is part of the IITM_ESM diagnostics system of CCCR.
+
+
+Author: [Pritam Das Mahapatra]
+Date: January 2025
+==============================================================================
+"""
+
 
 import os
 import sys
