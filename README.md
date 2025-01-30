@@ -103,7 +103,7 @@ TROUBLESHOOTING
 CONTACT & SUPPORT
 ------------------------------------------------------
 
-For any issues, contact [Your Name] at [Your Email] 
+For any issues, contact [Pritam] at [pritam.mahapatra@tropmet.res.in] 
 or visit CCCR, IITM.
 
 ------------------------------------------------------
