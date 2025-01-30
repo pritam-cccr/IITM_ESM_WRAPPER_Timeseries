@@ -1,6 +1,6 @@
 ===========================================
 
-IITM_ESM_WRAPPER_Timeseries ( TOA, TAS SSS, SST )
+IITM_ESM_WRAPPER_Timeseries ( TOA, TAS, SSS, SST )
 
 Time Series Plot for CMIP7 Climate Data
 
