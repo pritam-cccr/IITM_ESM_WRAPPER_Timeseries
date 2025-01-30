@@ -1,7 +1,18 @@
 #!/bin/bash
-# DESCRIPTION: Wrapper script for IITM_ESM diagnostics for Model1 (Parallel Processing Version)
+# ==============================================================================
+# Copyright (C) 2025 Centre for Climate Change Research (CCCR), IITM
+#
+# This script is part of the CCCR IITM_ESM diagnostics system.
+#
+# Author: [Pritam Das Mahapatra]
+# Date: January 2025
+# ==============================================================================
+## DESCRIPTION: Wrapper script for IITM_ESM diagnostics for CMIP7 (Parallel Processing Version)
+
 # Processes `tas`, `rsdt`, `rlut`, `rsut` from `input_dir1` and `sss`, `sst` from `input_dir2`.
-# Last updated: January 2025
+# ==============================================================================
+
+
 
 # Check if user_inputs_timeseries.sh exists
 if [[ ! -f "user_inputs_timeseries.sh" ]]; then
