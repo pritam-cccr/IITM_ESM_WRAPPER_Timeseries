@@ -3,6 +3,7 @@
 # Processes `tas`, `rsdt`, `rlut`, `rsut` from `input_dir1` and `sss`, `sst` from `input_dir2`.
 # Last updated: January 2025
 #This is to push check in VSCode
+#test VCCode
 
 # Check if user_inputs_timeseries.sh exists
 if [[ ! -f "user_inputs_timeseries.sh" ]]; then
